@@ -96,6 +96,35 @@ namespace cscondition
             {
                 Console.WriteLine("얌마 어? 사람을 봤으면 인사를 해야지;;;;");
             }
+            ConsoleKeyInfo info = Console.ReadKey();
+            switch (info.Key)
+            {
+                case ConsoleKey.UpArrow:
+                    Console.WriteLine("화살표 위");
+                    break;
+                case ConsoleKey.DownArrow:
+                    Console.WriteLine("화살표 아래");
+                    break;
+                case ConsoleKey.RightArrow:
+                    Console.WriteLine("화살표 오른쪽");
+                    break;
+                case ConsoleKey.LeftArrow:
+                    Console.WriteLine("화살표 왼쪽");
+                    break;
+            }
+            switch (info.KeyChar)
+            {
+                case 'a':
+                    Console.WriteLine("a를 입력하셨네요...");
+                    break;
+                case '가':
+                    Console.WriteLine("가를 입력하셨네요...");
+                    break;
+                    /*case (char) 38:
+                        Console.WriteLine("화살표 위");
+                        break;*/
+
+            }
 
         }
     }
