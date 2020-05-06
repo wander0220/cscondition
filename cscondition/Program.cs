@@ -13,14 +13,16 @@ namespace cscondition
             Console.Write("숫자 입력 : ");
             var input = int.Parse(Console.ReadLine());
 
-            if (input % 2 == 0)
-            {
-                Console.WriteLine("짝수입니다~");
-            }
-            else
-            {
-                Console.WriteLine("홀수입니다~");
-            }
+            //if (input % 2 == 0)
+            //{
+            //    Console.WriteLine("짝수입니다~");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("홀수입니다~");
+            //}
+            Console.WriteLine(input > 0 ? "자연수임" : "자연수아님");
+            Console.WriteLine(input % 2 == 0 ? "짝수임" : "홀수임");
 
             //현재 시간 구하기
             Console.WriteLine(DateTime.Now.Year);
@@ -82,6 +84,8 @@ namespace cscondition
                     Console.WriteLine("어느 계절에 사시는 건가요....?");
                     break;
             }
+
+
 
         }
     }
