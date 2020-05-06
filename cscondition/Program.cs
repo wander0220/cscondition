@@ -41,6 +41,10 @@ namespace cscondition
                 {
                     Console.WriteLine("점심 먹을 시간입니다. ");
                 }
+                else if (DateTime.Now.Hour < 17)
+                {
+                    Console.WriteLine("간식머겅^^! ");
+                }
                 else if(DateTime.Now.Hour < 20)
                 {
                     Console.WriteLine("저녁 먹을 시간입니다 ");
