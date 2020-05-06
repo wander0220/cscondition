@@ -44,6 +44,16 @@ namespace cscondition
                 Console.WriteLine("저녁 먹을 시간입니다 ");
             }
 
+            switch (input % 2)
+            {
+                case 0:
+                    Console.WriteLine("짝수입니다~");
+                    break;
+                case 1:
+                    Console.WriteLine("홀수입니다~");
+                    break;
+            }
+
         }
     }
 }
