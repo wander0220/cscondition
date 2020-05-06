@@ -86,6 +86,16 @@ namespace cscondition
             }
 
 
+            Console.Write("입력 : ");
+            String line = Console.ReadLine();
+            if (line.Contains("안녕"))
+            {
+                Console.WriteLine("안녕하세요~!~!!");
+            }
+            else
+            {
+                Console.WriteLine("얌마 어? 사람을 봤으면 인사를 해야지;;;;");
+            }
 
         }
     }
